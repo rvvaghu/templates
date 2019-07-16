@@ -1,7 +1,7 @@
 # Pull Command
 >Used to pull image from ***~Docker hub ~***
 ~~~
-docker pull **ubuntu:latest**
+docker pull ubuntu:latest
 docker pull imagename:tag
 ~~~
 
@@ -10,16 +10,16 @@ docker pull imagename:tag
 ~~~ 
 docker images
 ~~~
-# Remove unsed images 
+## Remove unused images 
 >Removes images from disk, **cannot remove images which have running or *stopped* containers.**
 ~~~
-docker rmi ***image name***
-docker rmi ***image id***
+docker rmi <image name>
+docker rmi <image id>
 ~~~
 ## Remove unused containers
 ~~~
-docker rm ***container name***
-docker rm ***container id***
+docker rm <container name>
+docker rm <container id>
 ~~~
 ***
 
@@ -28,7 +28,7 @@ docker rm ***container id***
 ~~~
 docker run ubuntu:latest
 ~~~
-Image if not in the disk, will be pulled from dockerhub for first use.
+Image, if it is not in the disk, will be pulled from dockerhub for the first use.
 
 ## Various options for run command
 
